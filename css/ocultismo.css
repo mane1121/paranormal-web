@@ -1,0 +1,33 @@
+/* ? todas las paginas de la seccion de ocultismo van a tener un estilo igual */
+/* ? lo unico que va a cambiar sera en las imagenes con eso se busca tener */
+/* ? un solo archivo de css por cada seccion*/
+/** estilo base de la pagina */
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin-top: 70px;
+    color: white;
+    width: 100%;
+
+    overflow: hidden;
+}
+h1, h4{
+    text-align: center;
+}
+.cuerpo{
+    background-color: black;
+}
+/** en esta parte inicia el estilo de las imagenes de la pagina de brujeria*/
+.ocultismo_bruja1, .ocultismo_bruja2{
+    height: 300px;
+    width: 330px;
+    padding-left: 60px;
+    /*filter: blur(2px); /*este filtro sirve o se utiliza para darle un formato borroso a la imagen*/
+    /*filter: grayscale(70%); /*filtro para dar una escala de grises*/
+}
+.ocultismo_bruja1:hover, .ocultismo_bruja2:hover{
+    transition: all .5s ease-in-out; /*se le dice que la animacion del hover dure .5 segundos*/
+    transform: scale(1.2); /*escala la imagen la hace mas grande depende de el numero que se le ponga en este caso se escala 1.3*/ /*! valor < 1 se contrae, valor > 1 se expande*/
+}
