@@ -16,7 +16,7 @@
 h1, h4{
     text-align: center;
 }
-.cuerpo{
+.cuerpo-ocultismo-brujeria, .cuerpo-ocultismo-alquimia, .cuerpo-ocultismo-cartomancia, .cuerpo-ocultismo-demonologia, .cuerpo-ocultismo-nigromancia, .cuerpo-ocultismo-oniromancia{
     background-color: black;
 }
 /** en esta parte inicia el estilo de las imagenes de la pagina de brujeria*/

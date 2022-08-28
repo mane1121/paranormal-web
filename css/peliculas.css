@@ -1,6 +1,14 @@
+/*! esta hoja de estilo se usara para las paginas de MUSICA y PELICULAS */
+/*! asi que se debera de tener cuidado con los ID de los componentes a usar*/
 *{
     padding: 0;
     margin: 0;
+}
+.cuerpo-musica{
+    background-color: black;
+}
+.cuerpo-peliculas{
+    background-color: black;
 }
 .container{
     margin-top: 70px;
@@ -11,4 +19,11 @@
 .card:hover{
     box-shadow: 5px 5px 20px rgba(red);
     transform: translateY(-4%);
+}
+.card-img-top{ /*esta parte es para darle un tamaño a la carta*/
+    height: 250px;
+    width: 300px;
+}
+.contenedor-musica{
+    margin-top: 30px;
 }
