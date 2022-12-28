@@ -16,14 +16,35 @@
 .card{
     margin-bottom: 20px;
 }
-.card:hover{
+/*.card:hover{
     box-shadow: 5px 5px 20px rgba(red);
     transform: translateY(-4%);
-}
+}*/
 .card-img-top{ /*esta parte es para darle un tamaño a la carta*/
     height: 250px;
     width: 300px;
 }
 .contenedor-musica{
     margin-top: 30px;
+}
+#contenedor_peliculas{
+    margin-top: 100px;
+}
+
+/*calificacion de estrellas*/
+.star-rating, #star1, #star2, #star3, #star4, #star5{
+    display: inline-block;
+    color: #F39C12;
+}
+
+/*clase contenedor flex*/
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    width: max-content;
+    margin-left: 30px;
+}
+#card1, #card2, #card3, #card4{
+    margin-right: 20px;
 }
