@@ -28,7 +28,7 @@
     margin-top: 30px;
 }
 #contenedor_peliculas{
-    margin-top: 100px;
+    margin-top: 15%;
 }
 
 /*calificacion de estrellas*/
@@ -40,11 +40,14 @@
 /*clase contenedor flex*/
 .contenedor{
     display: flex;
-    justify-content: space-between;
-    height: 400px;
-    width: max-content;
-    margin-left: 30px;
+    width: 100%;
+    margin-top: 3%;
+    justify-content: space-around;
 }
-#card1, #card2, #card3, #card4{
-    margin-right: 20px;
+#card1, #card2, #card3{
+    width: 27%;
+    margin-top: 1%;
+}
+#paginacion_peliculas{
+    margin-top: 5%;
 }
