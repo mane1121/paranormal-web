@@ -8,7 +8,7 @@
     background-color: black;
 }
 .cuerpo-peliculas{
-    background-color: black;
+    background-color: rgb(34, 33, 33);
 }
 .container{
     margin-top: 70px;
@@ -31,12 +31,6 @@
     margin-top: 15%;
 }
 
-/*calificacion de estrellas*/
-.star-rating, #star1, #star2, #star3, #star4, #star5{
-    display: inline-block;
-    color: #F39C12;
-}
-
 /*clase contenedor flex*/
 .contenedor{
     display: flex;
@@ -47,7 +41,49 @@
 #card1, #card2, #card3{
     width: 27%;
     margin-top: 1%;
+    background-color: rgb(220, 219, 219);
 }
 #paginacion_peliculas{
     margin-top: 5%;
+}
+/**estilo del boton en las cards de PELICULAS*/
+#boton_sipnosis{
+    margin-left:25%;
+    width: 50%;
+    background-color: rgb(75, 73, 73);
+    color: white;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+#boton_sipnosis:hover{
+    background-color: red;
+    color: white;
+}
+#boton_sipnosis:active {
+    background-color: darkred;
+    box-shadow: 0 0 0 2px white, 0 0 0 4px darkred;
+}
+/**estilo del titulo de la pelicula en la card de PELICULAS*/
+#titulo_pelicula{
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+/**estilo de la paginacion en la card de PELICULAS*/
+#pagina_seleccionada{
+    background-color: darkred;
+    color: white;
+} 
+#pg2, #pg3, #pgnext{
+    color: darkred;
+}
+#paginacion_peliculas{
+    margin-top: 3%;
+}
+#paginacion{
+    background-color: rgb(220, 219, 219);
+    color: black;
+}
+#navbar_inicio_texto{
+    color: white;
 }
