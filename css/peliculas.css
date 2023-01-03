@@ -87,3 +87,32 @@
 #navbar_inicio_texto{
     color: white;
 }
+
+/*-------------estilo de la pagina de MUSICA-------------*/
+/*estilo de las etiquetas h5*/
+h5{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#parrafo-musica{
+    text-align: left;
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+#boton_musica{
+    text-decoration: none;
+    color: white;
+    border-radius: 111px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(20, 164, 20, 0.811);
+}
+#boton_musica:hover{
+    background-color: rgba(24, 114, 10, 0.947);
+}
+#boton_musica:visited{
+    background-color: darkgreen;
+}
+#card-musica{
+    text-align: center;
+}
