@@ -1,21 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 #cuerpo_historia{
-    margin-top: 6%;
-    margin-left: 10%;
-}
-#div_footer{
-    text-align: right;
-}
-#div_header{
-    text-align: center;
+    margin-top: 4%;
+    margin-left: 1%;
 }
 
 .contenedor_principal{
     justify-items: center;
     text-align: center;
     background-color: antiquewhite;
-    width: auto;
+    width: 90%;
     height: auto;
     margin-left: 6%;
-    margin-right: 6%;
-}
+    margin-right: -100px;
 
+}
+.card{
+    width: 95%;
+}
+#navbar_inicio_texto{
+    color: white;
+}
+.cuerpo-historia{
+    background-color: rgb(34, 33, 33);
+}
+.contenedor_principal{
+    background-color: rgb(34, 33, 33);
+}
+#div_header_Historia_asesinos{
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card-title{ /*esta parte es el subtitulo de la historia o una frase para iniciarla*/
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    margin-left: 10%;
+}
+.card-footer{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1rem;
+    text-align: justify;
+}

@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1, h4{
+    text-align: center;
+}
+.cuerpo-grimorio{
+background-color: black;
+color: white;
+}
+.cuerpo{
+    text-align: justify-all;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+}
+.titulo{
+    margin-bottom: 50px;
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+#navbar_inicio_texto{
+    color: white;
+}
+#dragonrojo{
+    border: 3px solid red;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+#abramelin{
+    border: 3px solid red;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+#claviculas{
+    border: 3px solid red;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+#picatrix{
+    border: 3px solid red;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+#dragonrojoimg, #abramelinimg, #claviculasimg, #picatriximg, #picatriximg2{
+    width: 20%;
+    height: 30%;
+    margin-left: 40%;
+    margin-top: 5%;
+}
