@@ -5,3 +5,18 @@
 #navbar_inicio_texto{
     color: white;
 }
+.cuerpo-redes-sociales{
+    background-color: black;
+}
+.contenedor-redes-sociales{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+}
+.card{
+    margin-left: 20%;
+    width: 60%;
+}
+#a-redes{
+    margin-left: 80%;
+}
