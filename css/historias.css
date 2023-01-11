@@ -47,3 +47,29 @@ p{
     font-size: 1.1rem;
     text-align: justify;
 }
+/*footer*/
+.footer_contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer_icono{
+    border: 2px solid red;
+    width: 20%;
+}
+.footer_nombre{
+    border: 2px solid red;
+    width: 40%;
+    text-align: center;
+}
+.footer_contactanos{
+    border: 2px solid red;
+    width: 20%;
+    text-align: center;
+}
+#footer_enviar_historia{
+    
+}
+#exampleModal{
+    width: 100%;
+}
